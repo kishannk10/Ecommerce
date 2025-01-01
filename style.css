@@ -1,0 +1,379 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-padding-top: 8rem;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    justify-content: center;
+    font-family: 'poppins', sans-serif;
+    background-color: rgb(243, 243, 243);
+   
+}
+
+.navbar h1 {
+color: white;
+}
+
+.navbar {
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px;
+    box-shadow: rgba(0, 0, 93, 0.25) 0px 9px 4px -1px, rgba(0, 0, 0, 0.25) 0px 3px 7px -3px;
+    background-color: rgb(223, 45, 98);
+    z-index: 1;
+
+}
+
+.navbar-links {
+    display: flex;
+    column-gap: 20px;
+
+}
+
+.navbar-link-1 a {
+    text-decoration: none;
+    color:white;
+
+}
+.navbar-link-2 a {
+    text-decoration: none;
+    color: white;
+
+}
+.navbar-link-3 a {
+    text-decoration: none;
+    color: white;
+
+}
+.navbar-link-4 a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.navbar-link-1 a:hover {
+    color: rgb(0, 162, 255);
+}
+.navbar-link-2 a:hover {
+color: magenta;}
+
+.navbar-link-3 a:hover {
+    color: rgb(218, 221, 23);
+}
+
+.navbar-link-4 a:hover {
+    color: black;
+}
+
+
+
+.navbar-menu-toggle {
+    display: none;
+}
+
+/*side navbar*/
+.side-navbar {
+    background-color: rgb(223, 45, 98);;
+    width: 50%;
+    height: 100%;
+    position: fixed;
+    top: 0%;
+    left: -60%;
+    padding: 25px;
+    transition: 1s;
+    z-index: 2;
+
+}
+
+.side-navbar-link {
+    margin-bottom: 70px;
+}
+
+.side-navbar-link a {
+    text-decoration: none;
+    color: black;
+}
+
+.side-navbar-link a:hover {
+    text-decoration: underline;
+}
+
+
+
+/*header*/
+.header-image {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    width: 80%;
+    margin-left: 10%;
+    height: 100%;
+    padding-left: 0%;
+    padding-right: 0%;
+    align-items: center;
+
+}
+
+.context {
+    justify-content: center;
+    text-align: center;
+   
+}
+.context p{
+    margin: 30px;
+}
+
+.about {
+    text-align: center;
+    font-family: "satisfy", cursive;
+    font-size: 30px;
+    margin-top: 20px;
+    font-weight: bold;
+    color: brown;
+}
+
+.image {
+    padding: 50px;
+    display: flex;
+}
+
+.image-shinohara {
+    width: 30%;
+    height: auto;
+    float: left;
+    padding-right: 30px;
+    margin-bottom: 20px;
+   
+
+}
+
+
+.lists h2 {
+    color: brown;
+    margin-left: 9%;
+    font-weight: 700;
+    font-family: "satisfy", cursive;
+    font-size: 25px;
+
+}
+
+ul {
+    margin-left: 10%;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+
+.body {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+}
+
+.body h4 {
+    margin-top: 30px;
+    color: rgb(243, 67, 23);
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+/*products*/
+
+.products {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.product1,
+.product2,
+.product3,
+.product4,
+.product5,
+.product6,
+.product7,
+.product8 {
+
+    width: 440px;
+    height: 600px;
+    margin: 20px;
+
+
+}
+
+
+.heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+
+.product-heading h2{
+    font-family: "satisfy", cursive;
+    text-align: center;
+    color: brown;
+
+}
+
+
+
+.product-heading h4 {
+    color: rgb(243, 67, 23);
+    font-weight: 400;
+    margin-top: 30px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.product-heading h2 {
+   font-size: 30px;
+    margin-top: 46px;
+}
+
+/*contact*/
+
+
+.contact-container {
+    background-color: fffff;
+    border-radius: 10px;
+    max-width: 100%;
+    width: 100%;
+    justify-items: center;
+    margin-top: 150px;
+    padding-bottom: 10%;
+
+
+}
+
+.contact-container h2 {
+    font-size: 30px;
+    font-family: "satisfy", cursive;
+    color: brown;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+form input,
+form textarea,
+form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+
+}
+
+form button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+#response-message {
+    text-align: center;
+    color: green;
+}
+
+.hidden {
+    display: none;
+}
+
+.contact-form {
+    width: 50%;
+    padding: auto;
+}
+
+
+
+
+
+.footer {
+    display: flex;
+    background-color: rgb(223, 45, 98);;
+    padding: 30px;
+    width: 100%;
+    height: 200px;
+}
+
+.headingText {
+    margin-bottom: 20px;
+    color: white;
+}
+
+/*media query*/
+
+@media screen and (max-width:700px) {
+   body{
+    max-width: 100%;
+   }
+    .navbar {
+        display: flex;
+        max-width: 100%;
+    }
+
+    .navbar-menu-toggle {
+        display: block;
+    }
+
+    .navbar-links {
+        display: none;
+    }
+
+    .image-shinohara {
+        width: 100%;
+        height: auto;
+
+    }
+    .lists ul{
+        margin-left: 80px;
+        
+    }
+
+    .products {
+        display: flex;
+    }
+
+    .contact-container {
+        justify-items: center;
+
+
+    }
+
+    .contact-form {
+        align-items: 80px;
+        width: 90%;
+    }
+
+    .contact-container h2 {
+        text-align: center;
+        height: 100px;
+    }
+}
